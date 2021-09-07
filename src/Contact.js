@@ -67,11 +67,11 @@ class Contact extends Component {
                         <i className="bx bx-share-alt"></i>
                         <h3>Social Profiles</h3>
                         <div className="social-links">
-                        <a href="https://twitter.com/Swarnim02673274" className="twitter"><i className="icofont-twitter"></i></a>
-                        <a href="https://www.facebook.com/swarnim.rai.3760/" className="facebook"><i className="icofont-facebook"></i></a>
-                        <a href="https://www.instagram.com/swarnimstrange/" className="instagram"><i className="icofont-instagram"></i></a>
-                        <a href="https://github.com/swarnimstrange/" className="google-plus"><i className="icofont-github"></i></a>
-                        <a href="https://www.linkedin.com/in/swarnim-rai-1013a11a4/" className="linkedin"><i className="icofont-linkedin"></i></a>
+                        <a href="https://twitter.com/Swarnim02673274" target="_blank" rel="noreferrer noopener" className="twitter"><i className="icofont-twitter"></i></a>
+                        <a href="https://www.facebook.com/swarnim.rai.3760/" target="_blank" rel="noreferrer noopener" className="facebook"><i className="icofont-facebook"></i></a>
+                        <a href="https://www.instagram.com/swarnimstrange/" target="_blank" rel="noreferrer noopener" className="instagram"><i className="icofont-instagram"></i></a>
+                        <a href="https://github.com/swarnimstrange/" target="_blank" rel="noreferrer noopener" className="google-plus"><i className="icofont-github"></i></a>
+                        <a href="https://www.linkedin.com/in/swarnim-rai-1013a11a4/" target="_blank" rel="noreferrer noopener" className="linkedin"><i className="icofont-linkedin"></i></a>
                         </div>
                     </div>
                     </div>
