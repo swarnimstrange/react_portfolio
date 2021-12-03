@@ -15,8 +15,6 @@
    		--df-messenger-user-message: #d9ffc0;     
   }
 </style>
-    <!-- Jquery CDN -->
-    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
     <script>
         window.addEventListener('dfMessengerLoaded', function (event) {
     const dfMessenger = document.querySelector('df-messenger'); 
@@ -27,7 +25,6 @@
     style.textContent = '@media screen and (min-width: ' + nonMobileMinWidth + 'px) { .chat-wrapper { max-height: 515px } }';
 
     dfMessenger.shadowRoot.querySelector('df-messenger-chat').shadowRoot.appendChild(style);
-	}
     </script>
 	  </div>
     
