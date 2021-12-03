@@ -1,32 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <div>
-   <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-    <df-messenger agent-id='766c04f3-4d40-48df-8a53-97493633b06d' chat-icon='https://i.ibb.co/GWZFGBJ/mf-small.png' chat-title='🎗 How can I help you?' intent='WELCOME' language-code='en'
-    ></df-messenger>
-    <style>
-  	df-messenger {
-   		--df-messenger-bot-message: white;
-   		--df-messenger-button-titlebar-color: #116E11;
-   		--df-messenger-chat-background-color: #ede7de;
-   		--df-messenger-font-color: black;
-   		--df-messenger-send-icon: #878fac;
-   		--df-messenger-user-message: #d9ffc0;     
-  }
-</style>
-    <script>
-        window.addEventListener('dfMessengerLoaded', function (event) {
-    const dfMessenger = document.querySelector('df-messenger'); 
-    const style = document.createElement('style');
-
-    const nonMobileMinWidth = 501; // Breakpoint where DF Messenger switches between mobile/non-mobile styles
-
-    style.textContent = '@media screen and (min-width: ' + nonMobileMinWidth + 'px) { div.chat-wrapper[opened="true"] { height: 400px } }';
-
-    dfMessenger.shadowRoot.querySelector('df-messenger-chat').shadowRoot.appendChild(style);
-    </script>
-	  </div>
     
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
