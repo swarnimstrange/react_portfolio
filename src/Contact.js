@@ -1,26 +1,9 @@
 import { Link } from "react-router-dom";
-import React, {Component} from 'react';
+import {Component} from 'react';
 import DrawerToggleButton from './SideDrawer/DrawerToggleButton';
-import { Formik, Form } from 'formik';
-import {TextField, EField, MField} from "./SideDrawer/Field";
-import * as Yup from 'yup';
 
 class Contact extends Component {
     render(){
-        const validate = Yup.object({
-            firstName: Yup.string()
-              .max(20, 'Must be 20 characters or less')
-              .required('Required'),
-            lastName: Yup.string()
-              .max(20, 'Must be 20 characters or less')
-              .required('Required'),
-            email: Yup.string()
-              .email('Email is invalid')
-              .required('Email is required'),
-            message: Yup.string()
-              .min(10, 'Must be 10 characters or more')
-              .required('Required'),
-          })
       return(
         <div>
             <div className="heaader-top">
