@@ -31,7 +31,6 @@ class Contact extends Component {
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/resume">Resume</Link></li>
-                <li><Link to="/hobbies">Hobbies</Link></li>
                 <li><Link to="/portfolio">Projects</Link></li>
                 <li className="active"><Link to="/contact">Contact</Link></li>
                 </ul>
@@ -58,7 +57,7 @@ class Contact extends Component {
                     <div className="info-box">
                         <i className="bx bx-map"></i>
                         <h3>My Location</h3>
-                        <p>I2IT, Pune, Maharastra, India</p>
+                        <p>Pune, Maharastra</p>
                     </div>
                     </div>
 
@@ -86,41 +85,11 @@ class Contact extends Component {
                     <div className="col-md-6 mt-4 d-flex align-items-stretch">
                     <div className="info-box">
                         <i className="bx bxl-instagram"></i>
-                        <h3>Dm me on Insta</h3>
-                        <p>swarnimstrange</p>
+                        <h3>Connect with me on LinkedIn</h3>
+                        <p>linkedin.com/in/swarnim-rai</p>
                     </div>
                     </div>
                 </div>
-                <Formik
-                    initialValues={{
-                        firstName: '',
-                        lastName: '',
-                        email: '',
-                        message: ''
-                    }}
-                    validationSchema={validate}
-                    onSubmit={values => {
-                        console.log(values)
-                    }}
-                    >
-                {formik => (
-                    <div>
-                    <Form className="php-email-form mt-4">
-                    <div className="form-row">
-                    <TextField placeholder="First Name" name="firstName" type="text" />
-                    <TextField placeholder="Last Name" name="lastName" type="text" />
-                    </div>
-                    <div className="form-group">
-                    <EField placeholder="Your Email" name="email" type="email" className="form-control" />
-                    </div>
-                    <div className="form-group">
-                    <MField placeholder="Message" name="message" rows="5" />
-                    </div>
-                    <div className="text-center"><button type="submit">Send Message</button></div>
-                    </Form>
-                    </div>
-                )}
-                </Formik>
 
                 </div>
             </div>

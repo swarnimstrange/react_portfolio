@@ -1,23 +1,16 @@
 .bg-text {
-    padding-top: 100px;
+    padding-top: 60px;
     background-color: rgb(0,0,0);
     background-color: rgba(0, 0, 0, 0.9);
     height: auto;
 }
 
 .bg-tex{
-    top: 100px;
-    bottom: auto;
-    opacity: 1;
-    padding-bottom: 30px;
-    padding-top: 100px;
-    
+    padding-top: 60px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0, 0, 0, 0.9);
+    height: auto;
 }
-
-.bg-tex .container {
-    background: rgba(0, 0, 0, 0.9);
-    padding: 30px;
-  }
 
 .col {
     flex: 0 0 50%;
@@ -105,13 +98,40 @@ h4{
   }
   
 
-.a{
-    padding-top: 16px;
-    padding-left: 120px;
-    color: #fff;
-    line-height: 1;
-    display: inline-block;
+/* Default (Desktop) */
+.a {
+  padding-top: 16px;
+  padding-left: 90px;
+  color: #fff;
+  line-height: 1;
+  display: inline-block;
 }
+
+.a h1 {
+  font-size: 40px; /* optional, adjust as per your design */
+  line-height: 1.2;
+  color: #18d26e;
+  margin: 0;
+}
+
+/* Responsive (Mobile & Tablets) */
+@media (max-width: 768px) {
+  .a {
+    padding-left: 0 !important;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .a h1 {
+    font-size: 28px;
+    line-height: 1.2;
+    white-space: nowrap; /* ensures Swarnim Rai stays on one line */
+  }
+}
+
 
 .b{
     color: #fff;

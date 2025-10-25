@@ -31,11 +31,6 @@ class App extends Component {
         />
 
         <Route
-        path="/hobbies"
-        component={Hobby}
-        />
-
-        <Route
         path="/portfolio"
         component={Project}
         />
@@ -48,6 +43,11 @@ class App extends Component {
         <Route
         path="/mobnav"
         component={MobNav}
+        />
+
+        <Route
+        path="/hobbies"
+        component={Hobby}
         />
 
       </Router>
