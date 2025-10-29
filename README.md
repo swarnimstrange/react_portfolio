@@ -3,3 +3,5 @@
   https://swarnimrai.netlify.app
        
 <h3> This website is deployed on Netlify <h3>
+<img width="1920" height="824" alt="bg" src="https://github.com/user-attachments/assets/0ddaad38-7be1-49a4-a905-6bbb2037909a" />
+
